@@ -1,0 +1,28 @@
+/* Estílo del header */
+.cabecera {
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Estílo centrado imagenes del Article */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.fit-image{
+  width: 50%;
+  object-fit: cover;
+  height: 100px; /* only if you want fixed height */
+  }
+
+.row{
+  float: left;
+  width:100%;
+}
+
+.left{
+  float:left;
+}
+
